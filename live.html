@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Countdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+        .countdown {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+        .flyer {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .calendar-link {
+            margin-top: 20px;
+        }
+        .calendar-link a {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .calendar-link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>PREMIERE: HACKERS TO FOUNDERS PRESENTS</h1><br>
+    <h1>Interview with Jack Rhysider, Host of Darknet Diaries</h1>
+    <div class="countdown" id="countdown">Loading...</div>
+    <img src="images/jack.jpg" alt="Interview Flyer" class="flyer">
+    <div class="calendar-link">
+        <a href="https://calendar.google.com/calendar/" target="_blank">Add to Google Calendar</a>
+    </div>
+
+    <div class="email-form">
+        <form id="emailForm">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    <br><br><br>
+
+    <script>
+        const eventDate = new Date("2024-12-26T11:00:00-08:00"); // Replace with your interview date and time
+
+        function updateCountdown() {
+            const now = new Date();
+            const timeRemaining = eventDate - now;
+
+            if (timeRemaining <= 0) {
+                document.getElementById("countdown").innerText = "The interview has started!";
+                return;
+            }
+
+            const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerText = 
+                `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        document.getElementById("emailForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const email = document.getElementById("email").value;
+            if (email) {
+                alert(`Thank you for subscribing with: ${email}`);
+                document.getElementById("email").value = "";
+            }
+        });
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+    
+</body>
+</html>
