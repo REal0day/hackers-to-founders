@@ -1,1390 +1,278 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Hackers to Founders by REal0day</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="A podcast where I interview hackers, entrepreneurs, community builders and investors in Information Security and Cybersecurity">
-		
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<html lang="en">
+<head>
+	<title>Hackers to Founders — A podcast about the people building the future of cybersecurity</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="A podcast where Chris Magistrado interviews hackers, entrepreneurs, community builders and investors in Information Security and Cybersecurity.">
 
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYSWBQRD8L"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		
-		gtag('config', 'G-RYSWBQRD8L');
-		</script>
-	</head>
-	<body class="is-preload">
+	<!-- Open Graph -->
+	<meta property="og:title" content="Hackers to Founders" />
+	<meta property="og:description" content="A podcast about the people building the future of cybersecurity. Hosted by Chris Magistrado." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://hackerstofounders.com" />
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<!-- Fonts: Fraunces (distinctive display serif) + JetBrains Mono (for the hacker/editorial accents) + Instrument Sans (clean body) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Hackers to Founders</a>
-					</header>
+	<!-- Keep legacy CSS for the template's post sections, but we override most of it -->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/redesign.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYSWBQRD8L"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-RYSWBQRD8L');
+	</script>
+</head>
+<body>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Post -->
-						<iframe width="100%" height="390" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/hackers-to-founders/playlist"></iframe>
+	<!-- Top Nav -->
+	<nav class="h2f-nav">
+		<div class="h2f-nav-inner">
+			<a href="/" class="h2f-wordmark">
+				<span class="h2f-wordmark-bracket">[</span>Hackers<span class="h2f-wordmark-to">→</span>Founders<span class="h2f-wordmark-bracket">]</span>
+			</a>
+			<div class="h2f-nav-links">
+				<a href="#episodes">Episodes</a>
+				<a href="#subscribe">Subscribe</a>
+				<a href="https://discord.gg/2TnH6hkuTG" target="_blank" rel="noopener">Discord</a>
+			</div>
+		</div>
+	</nav>
 
+	<!-- Hero -->
+	<header class="h2f-hero">
+		<div class="h2f-hero-inner">
+			<div class="h2f-eyebrow">
+				<span class="h2f-eyebrow-dot"></span>
+				<span>A podcast by Chris Magistrado</span>
+			</div>
+			<h1 class="h2f-hero-title">
+				The people building<br>
+				the future of <em>cybersecurity.</em>
+			</h1>
+			<p class="h2f-hero-sub">
+				Long-form conversations with hackers, founders, and investors shaping the security industry. Hosted by <strong>Chris Magistrado</strong> — security researcher, Senior Product Security Engineer at Fortinet, and recovering hacker.
+			</p>
 
-						<section class="post">
-							<header class="major">
-							  <span class="date">February 21st, 2025</span>
-							  <h1>Ep.17 – How AI is Changing OSINT, Dark Web Investigations, and Fraud Detection with Zara Perumal</h1>
-							  <p>What if AI could predict and prevent cyber fraud before it happens? In this episode of <em>Hackers to Founders</em>, Zara Perumal, CTO and co-founder of Overwatch Data, highlights her journey from early coding experiments to building an AI-driven cybersecurity platform. Hear how Overwatch uncovers threats on the dark web, automates OSINT processing, and helps businesses stay ahead of emerging fraud schemes.</p>
-							</header>
-							
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/tZKWDqbhKzs?si=YVUZHd5U1MmzoyCv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/fce1d90f"></iframe>
+			<!-- Listen On buttons -->
+			<div class="h2f-listen">
+				<span class="h2f-listen-label">Listen on</span>
+				<div class="h2f-listen-buttons">
+					<a href="https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6" target="_blank" rel="noopener" class="h2f-btn h2f-btn-spotify">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+						Spotify
+					</a>
+					<a href="https://podcasts.apple.com/us/podcast/hackers-to-founders/id1771903476" target="_blank" rel="noopener" class="h2f-btn h2f-btn-apple">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm-.68 17.48c-.65 0-1.18-.53-1.18-1.18 0-.65.53-1.18 1.18-1.18s1.18.53 1.18 1.18c0 .65-.53 1.18-1.18 1.18zm2.09-3.05c-.03.62-.56 1.1-1.18 1.1h-.01c-.62 0-1.14-.49-1.18-1.1L11.2 8.42c-.02-.35.1-.69.33-.94.24-.25.57-.39.92-.39h.01c.35 0 .68.14.92.39.24.25.36.59.33.94l-.3 6.01z"/></svg>
+						Apple Podcasts
+					</a>
+					<a href="https://www.youtube.com/@HackersToFounders" target="_blank" rel="noopener" class="h2f-btn h2f-btn-youtube">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+						YouTube
+					</a>
+					<a href="https://share.transistor.fm/s/hackers-to-founders" target="_blank" rel="noopener" class="h2f-btn h2f-btn-rss">
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 012.18 2.18C8.36 19 7.38 20 6.18 20 5 20 4 19 4 17.82a2.18 2.18 0 012.18-2.18M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/></svg>
+						RSS
+					</a>
+				</div>
+			</div>
+		</div>
 
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Zara's early passion for coding, developing iOS apps, and studying at MIT.</li>
-							  <li>From Google's Threat Analysis Group to co-founding Overwatch Data.</li>
-							  <li>Using AI and automation to sift through OSINT and dark web intel.</li>
-							  <li>Turning customer feedback into real-time fraud detection solutions.</li>
-							  <li>Insights on navigating the startup world, from market fit to funding rounds.</li>
-							</ul>
-						  
-							<h2>People Mentioned:</h2>
-							<ul>
-							  <li><strong>Zara Perumal</strong> – CTO and Co-founder, Overwatch Data</li>
-							  <li><strong>Arjun Bisen</strong> – CEO and Co-founder, Overwatch Data</li>
-							  <li><strong>Ron Rivest</strong> – MIT professor and cryptography pioneer</li>
-							  <li><strong>Michael (YC Advisor)</strong> – Early guide during Overwatch's development</li>
-							</ul>
-						  
-							<h2>Technologies &amp; Tools:</h2>
-							<ul>
-							  <li><strong>GPT (ChatGPT)</strong> – AI scripting and analysis tasks</li>
-							  <li><strong>JADX</strong> – Reverse-engineering Android applications</li>
-							  <li><strong>Corellium</strong> – Mobile security research platform</li>
-							  <li><strong>Telegram</strong> – Key source for cybercriminal communication</li>
-							</ul>
-						  
-							<h2>Cybersecurity &amp; Hacking:</h2>
-							<ul>
-							  <li><strong>OSINT</strong> – Open-source intelligence for threat detection</li>
-							  <li><strong>Dark Web Investigations</strong> – Tracking illicit marketplaces and forums</li>
-							  <li><strong>SIM Swapping &amp; Credential Stuffing</strong> – Key fraud tactics Overwatch counters</li>
-							</ul>
-						  </section>
-
-						<section class="post">
-							<header class="major">
-							  <span class="date">January 29th, 2025</span>
-							  <h1>Ep.16 – The Birth of the CVE System, created by Adam Shostack</h1>
-							  <p>Who created the CVE system? Meet Adam Shostack: a renowned cybersecurity expert whose storied career spans vulnerability scanners, anonymized networks, and threat modeling. From his early fascination with security at Brigham and Women's Hospital to his role in co-creating CVE, Adam shares the highs and lows of founding security startups, guiding Microsoft's Secure Development Lifecycle, and forging new paths in cyber public health.</p>
-							</header>
-						  
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/TXDCLf6HtlA?si=9jdJ_CsLj2QgMTak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/ab92d485"></iframe>
-													  
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Adam's evolution from D&amp;D enthusiast to pioneering CVE co-creator.</li>
-							  <li>Startup experiences at Net Tech and Zero Knowledge Systems.</li>
-							  <li>Developing the STRIDE framework at Microsoft and popularizing threat modeling.</li>
-							  <li>Embracing educational initiatives to scale cybersecurity expertise.</li>
-							  <li>Applying public health methodologies to address global cyber challenges.</li>
-							</ul>
-						  
-							<h2>Organizations and Initiatives:</h2>
-							<ul>
-							  <li><strong>CVE (Common Vulnerabilities and Exposures)</strong> – A standardized system for identifying cybersecurity vulnerabilities.</li>
-							  <li><strong>Net Tech</strong> – Early startup that built vulnerability scanners (Hacker Shield).</li>
-							  <li><strong>Zero Knowledge Systems</strong> – Focused on anonymized networking solutions akin to Tor.</li>
-							  <li><strong>MITRE</strong> – Collaborated with Adam to develop and support the CVE system.</li>
-							  <li><strong>BBN</strong> – Early internet pioneer where Adam met key figures like Mudge and Weld Pond.</li>
-							  <li><strong>Cyber Green</strong> – An initiative for applying public health approaches to cybersecurity.</li>
-							</ul>
-						  
-							<h2>People Mentioned:</h2>
-							<ul>
-							  <li><strong>Adam Shostack</strong> – CVE co-creator, threat modeling thought leader.</li>
-							  <li><strong>Mike Howard &amp; Steve Lipner</strong> – Collaborators on Microsoft's Secure Development Lifecycle.</li>
-							  <li><strong>Mudge &amp; Weld Pond</strong> – Influential hackers encountered at BBN.</li>
-							  <li><strong>Lance Cottrell &amp; Paul Syverson</strong> – Contributed to anonymized network tech influencing Adam's work.</li>
-							</ul>
-						  
-							<h2>Notable Tools and Concepts:</h2>
-							<ul>
-							  <li><strong>Hacker Shield</strong> – Early vulnerability scanner from Adam's startup.</li>
-							  <li><strong>STRIDE</strong> – Threat modeling framework (Spoofing, Tampering, Repudiation, Info Disclosure, DoS, Elevation of Privilege).</li>
-							  <li><strong>Tor &amp; Mixmaster</strong> – Influential anonymized networking technologies.</li>
-							  <li><strong>Log4j</strong> – Example used by Adam to illustrate public health approaches to vulnerability management.</li>
-							</ul>
-						  </section>
-						  
-
-
-						<section class="post">
-							<header class="major">
-							  <span class="date">January 20th, 2025</span>
-							  <h1>Ep.15 – CISO Lessons from Fox News, Point72, and Phosphorus with John Terrill</h1>
-							  <p>How do you defend Fox News, hedge funds, and global networks while building groundbreaking startups? John Terrill shares his journey from a curious 12-year-old attending 2600 meetings to becoming a seasoned CISO and security entrepreneur. He dives into founding Drawbridge Networks, pioneering microsegmentation, and the challenges of aligning cybersecurity strategies with business objectives in fast-paced environments.</p>
-							</header>
-						  
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/ERii5kdyUKY?si=b4v4jNMzo4k4H9To" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/edadfd9c"></iframe>
-				
-							
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Early hacker community exposure through 2600 meetings.</li>
-							  <li>Co-founding Drawbridge Networks and innovating microsegmentation.</li>
-							  <li>Tenure as CISO at Fox News during a high-profile ownership transition.</li>
-							  <li>Navigating ransomware, executive protection, and remote work challenges at Point72.</li>
-							  <li>Balancing offensive and defensive security strategies with business objectives.</li>
-							  <li>Advocating for more meaningful board-level cybersecurity discussions.</li>
-							</ul>
-						  
-							<h2>Companies and Organizations:</h2>
-							<ul>
-							  <li><strong>Phosphorus Cybersecurity Inc</strong> – Specializes in xIoT security solutions.</li>
-							  <li><strong>Point72</strong> – Global hedge fund and asset management firm.</li>
-							  <li><strong>Fox News Media</strong> – Major American media company.</li>
-							  <li><strong>OPĀQ Networks</strong> – Acquired by Fortinet.</li>
-							  <li><strong>Drawbridge Networks</strong> – Co-founded by John Terrill, focused on microsegmentation.</li>
-							  <li><strong>NYU Tandon School of Engineering</strong> – Where John was an adjunct professor.</li>
-							  <li><strong>BlackRock</strong> – Investment management corporation.</li>
-							  <li><strong>NASDAQ OMX</strong> – Global financial services corporation.</li>
-							  <li><strong>IBM (Internet Security Systems)</strong> – John's starting point in X-Force research.</li>
-							  <li><strong>Zettaset</strong> – A big data security startup co-founded by John.</li>
-							</ul>
-						  
-							<h2>Events and Concepts:</h2>
-							<ul>
-							  <li><strong>2600 Meetings</strong> – Hacker gatherings for knowledge sharing.</li>
-							  <li><strong>Microsegmentation</strong> – Strategy to isolate workloads and block lateral movement.</li>
-							  <li><strong>Zero Trust</strong> – Security framework removing implicit network trust.</li>
-							  <li><strong>MITRE ATT&amp;CK Framework</strong> – Knowledge base of adversary tactics and techniques.</li>
-							</ul>
-						  </section>
-						  
-
-						
-						<section class="post">
-							<header class="major">
-							  <span class="date">January 14th, 2025</span>
-							  <h1>Ep.14 – From Education Platform to Browser Isolation: The Birth of SquareX with Vivek Ramachandran</h1>
-							  <p>Vivek's passion for tackling cutting-edge cybersecurity problems led him to create SquareX, a browser-native solution aimed at eliminating client-side web attacks. In this episode, he discusses the importance of authenticity, community engagement, and leveraging expertise for scalable products. He also shares the ups and downs of entrepreneurship—from setting realistic goals and understanding market needs to surrounding yourself with trustworthy advisors and peers.</p>
-							</header>
-						  
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/tE5ZdXEeqBM?si=2PabzES7WGXbWlGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/518e6a20"></iframe>
-							
-							
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Founding SquareX to combat client-side web attacks through browser isolation.</li>
-							  <li>Community-building strategies, authenticity, and personal branding in InfoSec.</li>
-							  <li>Balancing entrepreneurship, family, and creative pursuits like comic book writing.</li>
-							  <li>Navigating market needs, refining product feedback loops, and learning from failures.</li>
-							  <li>The value of mentorship, realistic goal-setting, and forging strategic partnerships.</li>
-							</ul>
-						  
-							<h2>Events and Conferences:</h2>
-							<ul>
-							  <li><strong>Black Hat</strong></li>
-							  <li><strong>Defcon</strong></li>
-							  <li><strong>BruCON</strong></li>
-							  <li><strong>NullCon</strong></li>
-							</ul>
-						  
-							<h2>Books Mentioned:</h2>
-							<ul>
-							  <li>
-								<a href="https://amzn.to/4adTi29" target="_blank" rel="noopener noreferrer">
-								  <em>Founders at Work</em> by Jessica Livingston
-								</a>
-							  </li>
-							  <li>
-								<a href="https://amzn.to/4aghEsa" target="_blank" rel="noopener noreferrer">
-								  <em>Rich Dad Poor Dad</em> by Robert Kiyosaki
-								</a>
-							  </li>
-							  <li>
-								<a href="https://amzn.to/4gQ7XDd" target="_blank" rel="noopener noreferrer">
-								  <em>Superfans</em>
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Technologies and Platforms:</h2>
-							<ul>
-							  <li><strong>Kali Linux</strong></li>
-							  <li><strong>Metasploit</strong></li>
-							  <li><strong>Qubes OS</strong></li>
-							</ul>
-						  
-							<h2>Podcasts and Media:</h2>
-							<ul>
-							  <li>
-								<a href="https://www.thetwentyminutevc.com/" target="_blank" rel="noopener noreferrer">
-								  <em>20VC</em> by Harry Stebbings
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.joerogan.com/" target="_blank" rel="noopener noreferrer">
-								  Joe Rogan Podcast
-								</a>
-							  </li>
-							</ul>
-						  </section>
-						  
-
-
-
-						
-						<section class="post">
-							<header class="major">
-							  <span class="date">January 7th, 2025</span>
-							  <h1>Ep.13 – Finding Your Passion in Cybersecurity with Dave Chronister</h1>
-							  <p>From crimping cables to advising the French Minister of Defense—Dave Chronister's journey is unreal! Dive into decades of cybersecurity wisdom as Dave shares how he founded Parameter Security, launched the hands-on ShowMeCon, and advised global leaders. Learn about strategic approaches to security, Dave's thoughts on AI, and the business acumen behind building successful InfoSec ventures. Don't miss out on this inspiring story of passion, adaptability, and impact in the cybersecurity world.</p>
-							</header>
-						  
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/xiGn4jKpZKA?si=sPxAeqrwNuY0bMaV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/8522bc11"></iframe>
-							
-							
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Establishing Parameter Security and launching ShowMeCon.</li>
-							  <li>Transitioning from small-town tech work to global cybersecurity advising.</li>
-							  <li>Balancing technical mastery with business and AI-driven insights.</li>
-							  <li>Speaking at top InfoSec conferences worldwide, including appearances with the French Minister of Defense.</li>
-							  <li>Approaches to teaching, training, and guiding new security professionals.</li>
-							</ul>
-						  
-							<h2>People and Speakers:</h2>
-							<ul>
-							  <li><strong>Dave Chronister</strong> – Cybersecurity expert, founder of Parameter Security, creator of ShowMeCon.</li>
-							  <li><strong>Chris REal0day</strong> – Host and interviewer, Hackers to Founders.</li>
-							  <li><strong>French Minister of Defense</strong> – Mentioned as a speaker alongside Dave Chronister.</li>
-							</ul>
-						  
-							<h2>Companies and Organizations:</h2>
-							<ul>
-							  <li><strong>Parameter Security</strong> – Dave Chronister's cybersecurity firm.</li>
-							  <li><strong>ECCouncil</strong> – Provides certifications like CEH.</li>
-							  <li><strong>EuroPol</strong> – EU law enforcement agency, references to cybersecurity initiatives.</li>
-							  <li><strong>FBI</strong> – Mentioned in context of cyber investigations.</li>
-							  <li><strong>Fortinet</strong> – Cybersecurity company known for high-quality speakers.</li>
-							</ul>
-						  
-							<h2>Conferences:</h2>
-							<ul>
-							  <li><strong>ShowMeCon</strong> – Dave's premier InfoSec conference.</li>
-							  <li><strong>Def Camp</strong> – Held in Bucharest, Romania.</li>
-							  <li><strong>Positive Hack Days (PHDays)</strong> – Moscow-based cybersecurity event.</li>
-							  <li><strong>Black Hat</strong> – Leading business-focused cybersecurity conference.</li>
-							  <li><strong>DEF CON</strong> – Renowned grassroots hacking conference.</li>
-							  <li><strong>RSA Conference</strong> – Government-centric cybersecurity conference.</li>
-							</ul>
-						  
-							<h2>Certifications and Courses:</h2>
-							<ul>
-							  <li><strong>CISSP</strong> – Certified Information Systems Security Professional.</li>
-							  <li><strong>CEH</strong> – Certified Ethical Hacker.</li>
-							  <li><strong>Security Plus</strong> – Foundational cybersecurity certification.</li>
-							</ul>
-						  
-							<h2>Pop Culture References:</h2>
-							<ul>
-							  <li><strong>Animal House</strong> – Noted for influencing Mizzou's party reputation.</li>
-							</ul>
-						  
-							<h2>Books Mentioned:</h2>
-							<ul>
-							  <li><a href="https://amzn.to/4gBfkhH" target="_blank" rel="noopener noreferrer"><strong>Find Your Why</strong> by Simon Sinek</a></li>
-							  <li><a href="https://amzn.to/4a762aI" target="_blank" rel="noopener noreferrer"><strong>Traction</strong> by Gino Wickman</a></li>
-							  <li><a href="https://amzn.to/3C2D2UZ" target="_blank" rel="noopener noreferrer"><strong>Rocket Fuel</strong> by Gino Wickman and Mark C. Winters</a></li>
-							  <li><a href="https://amzn.to/3DLud2s" target="_blank" rel="noopener noreferrer"><strong>Value-Based Fees</strong> by Alan Weiss</a></li>
-							  <li><a href="https://amzn.to/3WbECuJ" target="_blank" rel="noopener noreferrer"><strong>Vivid Vision</strong> by Cameron Herold</a></li>
-							  <li><a href="https://amzn.to/423UbIo" target="_blank" rel="noopener noreferrer"><strong>Who Not How</strong> by Dan Sullivan</a></li>
-							  <li><a href="https://amzn.to/3BWPDsU" target="_blank" rel="noopener noreferrer"><strong>Living the Best Year Ever</strong></a></li>
-							  <li><a href="https://amzn.to/40pt89x" target="_blank" rel="noopener noreferrer"><strong>The Home MBA</strong></a></li>
-							</ul>
-						  </section>
-						  
-						
-						<section class="post">
-							<header class="major">
-							  <span class="date">December 30th, 2024</span>
-							  <h1>Ep.12 – Secrets of Darknet Diaries: Jack Rhysider's Path to Podcasting Excellence</h1>
-							  <p>Interested in the Darknet and untold stories of the internet? On this episode of Hackers to Founders, Chris REal0day and Jack Rhysider deep-dive into the art of podcasting, exploring Jack's evolution as a storyteller through his hit show <em>Darknet Diaries</em>. They discuss building a dedicated community, creating superfans, reaching out to unique guests, and expanding into new languages. Jack reflects on the role of AI in creative production and the importance of immersive audio, editing, and thoughtful collaboration. The conversation highlights hacking culture, ethical storytelling, and how Jack transitioned to full-time podcasting through innovative revenue models. He also shares his personal growth journey, networking approaches, and aspirations for teaching and writing to inspire others.</p>
-							</header>
-						  
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/9vR5kMgqwSs?si=XzoCzNV9kiSFFpQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/cbd119bc"></iframe>
-							
-							
-
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>The origins of Darknet Diaries and the evolution of podcast storytelling.</li>
-							  <li>Strategies for community building, creating superfans, and engaging unique guests.</li>
-							  <li>Challenges of expanding content into multiple languages.</li>
-							  <li>Insights on integrating AI into creative and editorial processes.</li>
-							  <li>Exploring ethical hacking culture and maintaining authenticity in storytelling.</li>
-							  <li>Transitioning to full-time podcasting through sponsorships, Patreon, and other models.</li>
-							  <li>Personal growth, networking, and Jack's vision for teaching and writing in the future.</li>
-							</ul>
-						  
-							<h2>Guest:</h2>
-							<ul>
-							  <li><strong>Jack Rhysider</strong> – 
-								<a href="https://darknetdiaries.com/" target="_blank" rel="noopener noreferrer">
-								  Creator and Host of Darknet Diaries
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Darknet Diaries:</h2>
-							<ul>
-							  <li>
-								<a href="https://shop.darknetdiaries.com/" target="_blank" rel="noopener noreferrer">
-								  Clothing Shop
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.patreon.com/darknetdiaries" target="_blank" rel="noopener noreferrer">
-								  Patreon
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>People Mentioned:</h2>
-							<ul>
-							  <li>
-								<strong>Chris REal0day Magistrado</strong> – 
-								<a href="https://linktr.ee/REal0day" target="_blank" rel="noopener noreferrer">
-								  Hacker and Host of HackersToFounders.com
-								</a>
-							  </li>
-							  <li><strong>Jack Rhysider</strong> – Creator and Host of Darknet Diaries</li>
-							  <li>
-								<strong>Pat Flynn</strong> – 
-								<a href="https://patflynn.com/" target="_blank" rel="noopener noreferrer">
-								  Entrepreneur, author, and podcaster (Smart Passive Income)
-								</a>
-							  </li>
-							  <li>
-								<strong>General Nakasone</strong> – 
-								<a href="https://www.youtube.com/watch?v=D1bzZwFQUcI" target="_blank" rel="noopener noreferrer">
-								  Commander of U.S. Cyber Command, Director of NSA, and on the board of OpenAI
-								</a>
-							  </li>
-							  <li>
-								<strong>Roman Mars</strong> – 
-								<a href="https://www.romanmars.com/" target="_blank" rel="noopener noreferrer">
-								  Radio producer and host of 99% Invisible
-								</a>
-							  </li>
-							  <li>
-								<strong>Blind Boy</strong> – 
-								<a href="https://www.theblindboypodcast.ie/" target="_blank" rel="noopener noreferrer">
-								  Podcast host, Irish musician, and author
-								</a>
-							  </li>
-							  <li>
-								<strong>Tim Ferriss</strong> – 
-								<a href="https://tim.blog/" target="_blank" rel="noopener noreferrer">
-								  Author, entrepreneur, and public speaker (The 4-Hour Workweek)
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Podcasts and Media Programs:</h2>
-							<ul>
-							  <li>
-								<a href="https://darknetdiaries.com/" target="_blank" rel="noopener noreferrer">
-								  Darknet Diaries
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.smartpassiveincome.com/" target="_blank" rel="noopener noreferrer">
-								  Smart Passive Income
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.thisamericanlife.org/" target="_blank" rel="noopener noreferrer">
-								  This American Life
-								</a>
-							  </li>
-							  <li>
-								<a href="https://radiolab.org/" target="_blank" rel="noopener noreferrer">
-								  Radiolab
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.nytimes.com/column/rabbit-hole" target="_blank" rel="noopener noreferrer">
-								  Rabbit Hole
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Books and Learning Resources:</h2>
-							<ul>
-							  <li>
-								<a href="https://amzn.to/3W03B3R" target="_blank" rel="noopener noreferrer">
-								  Make Noise
-								</a>
-							  </li>
-							  <li>
-								<a href="https://amzn.to/4gxWzvF" target="_blank" rel="noopener noreferrer">
-								  Superfans
-								</a>
-							  </li>
-							  <li>
-								<a href="https://amzn.to/4fASQMj" target="_blank" rel="noopener noreferrer">
-								  The 4-Hour Workweek
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.khanacademy.org/computing/pixar" target="_blank" rel="noopener noreferrer">
-								  Pixar in a Box
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Organizations and Events:</h2>
-							<ul>
-							  <li>
-								<strong>NSA (National Security Agency)</strong> – 
-								<a href="https://our.wikileaks.org/Main_Page" target="_blank" rel="noopener noreferrer">
-								  U.S. government agency for signals intelligence
-								</a>
-							  </li>
-							  <li>
-								<strong>NPR (National Public Radio)</strong> – 
-								<a href="https://www.npr.org/" target="_blank" rel="noopener noreferrer">
-								  American nonprofit media organization
-								</a>
-							  </li>
-							  <li>
-								<strong>DEF CON</strong> – 
-								<a href="https://defcon.org/" target="_blank" rel="noopener noreferrer">
-								  One of the world's largest hacker conventions
-								</a>
-							  </li>
-							  <li>
-								<strong>CCC (Chaos Computer Club)</strong> – 
-								<a href="https://www.ccc.de/en/" target="_blank" rel="noopener noreferrer">
-								  Europe's largest association of hackers
-								</a>
-							  </li>
-							  <li>
-								<strong>Toorcamp</strong> – 
-								<a href="https://toorcamp.org/" target="_blank" rel="noopener noreferrer">
-								  Hacker camp event
-								</a>
-							  </li>
-							  <li>
-								<strong>CCCamp</strong> – 
-								<a href="https://events.ccc.de/camp/2023/infos/index.html" target="_blank" rel="noopener noreferrer">
-								  Grassroots hacker gathering near Berlin
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Technology and Platforms:</h2>
-							<ul>
-							  <li>
-								<a href="https://ChatGPT.com" target="_blank" rel="noopener noreferrer">
-								  ChatGPT
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.minecraft.net/" target="_blank" rel="noopener noreferrer">
-								  Minecraft
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.roblox.com/" target="_blank" rel="noopener noreferrer">
-								  Roblox
-								</a>
-							  </li>
-							  <li>
-								<strong>IRC (Internet Relay Chat)</strong> – 
-								<a href="https://en.wikipedia.org/wiki/IRC" target="_blank" rel="noopener noreferrer">
-								  A protocol for real-time text communication
-								</a>
-							  </li>
-							  <li>
-								<strong>Anonymous</strong> – 
-								<a href="https://en.wikipedia.org/wiki/Anonymous_(hacker_group)" target="_blank" rel="noopener noreferrer">
-								  Decentralized hacktivist collective
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.4chan.org/" target="_blank" rel="noopener noreferrer">
-								  4chan
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Cultural and Physical Landmarks:</h2>
-							<ul>
-							  <li>
-								<a href="https://en.bandainamcoent.eu/elden-ring/elden-ring" target="_blank" rel="noopener noreferrer">
-								  Elden Ring
-								</a>
-							  </li>
-							  <li>
-								<a href="https://www.toureiffel.paris/en" target="_blank" rel="noopener noreferrer">
-								  Eiffel Tower
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Creators:</h2>
-							<ul>
-							  <li>
-								<a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA" target="_blank" rel="noopener noreferrer">
-								  Mr. Beast
-								</a>
-							  </li>
-							  <li>
-								<strong>CORPSE</strong> – 
-								<a href="https://www.youtube.com/channel/UCuZPtWDsczOuztPMUr0mmpw" target="_blank" rel="noopener noreferrer">
-								  Artist and creator with a unique voice
-								</a>
-							  </li>
-							</ul>
-						  </section>
-						  
-
-
-						<section class="post">
-							<header class="major">
-							  <span class="date">December 23rd, 2024</span>
-							  <h1>Ep.11 - How to Start a Successful Pentesting Company: Pujan Shah and Daniel Amidon Co-Founders of ApolloGuard</h1>
-							  <p>Want to start your own pentesting consultancy/business? Discover how ApolloGuard, founded by Daniel Amidon and Pujan Shah, successfully navigated the challenges of launching a new cybersecurity venture. They share strategies for breaking into the market, prioritizing proactive security measures, and building trust with clients, all while emphasizing the significance of complementary skills, continuous learning, and a strong mission.</p>
-							</header>
-						  
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/mcD_Sm1kUK0?si=W-bq0E5U7TkeOCON" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/e85e9c21"></iframe>
-						  
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Building a new pentesting company in a competitive landscape.</li>
-							  <li>Combining technical expertise with operational and strategic leadership.</li>
-							  <li>Utilizing existing networks and relationships for early customer acquisition.</li>
-							  <li>Moving beyond compliance-focused testing to deliver meaningful security solutions.</li>
-							  <li>Fostering innovation, persistence, and strong client relationships for company growth.</li>
-							</ul>
-						  
-							<h2>Guests:</h2>
-							<ul>
-							  <li>
-								<strong>Pujan Shah</strong> – 
-								<a href="https://www.linkedin.com/in/pshah248/" target="_blank" rel="noopener noreferrer">
-								  Co-Founder &amp; CEO
-								</a>
-							  </li>
-							  <li>
-								<strong>Daniel Amidon</strong> – 
-								<a href="https://www.linkedin.com/in/daniel-amidon/" target="_blank" rel="noopener noreferrer">
-								  Co-Founder &amp; CTO
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Company:</h2>
-							<ul>
-							  <li>
-								<a href="https://apolloguard.io/" target="_blank" rel="noopener noreferrer">
-								  ApolloGuard Website
-								</a>
-							  </li>
-							  <li>
-								<a href="https://HackersToFounders.com" target="_blank" rel="noopener noreferrer">
-								  Hackers to Founders Website
-								</a>
-							  </li>
-							</ul>
-						  
-							<h2>Books Mentioned:</h2>
-							<ul>
-							  <li>
-								<a href="https://amzn.to/3BtJkNn" target="_blank" rel="noopener noreferrer">
-								  Your Next Five Moves
-								</a> by Patrick Bet-David
-							  </li>
-							  <li>
-								<a href="https://amzn.to/4iPiOP1" target="_blank" rel="noopener noreferrer">
-								  The Subtle Art of Not Giving a F*ck
-								</a> by Mark Manson
-							  </li>
-							  <li>
-								<a href="https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519" target="_blank" rel="noopener noreferrer">
-								  The 7 Habits of Highly Effective People
-								</a> by Stephen Covey
-							  </li>
-							  <li>
-								<a href="https://amzn.to/402dBw4" target="_blank" rel="noopener noreferrer">
-								  The Four Hour Work Week
-								</a> by Tim Ferriss
-							  </li>
-							  <li>
-								<a href="https://amzn.to/41LhN4p" target="_blank" rel="noopener noreferrer">
-								  The Obstacle Is the Way
-								</a> by Ryan Holiday
-							  </li>
-							  <li>
-								<a href="https://amzn.to/4fzEAU1" target="_blank" rel="noopener noreferrer">
-								  Outliers
-								</a> by Malcolm Gladwell
-							  </li>
-							</ul>
-						  
-							<h2>Businesses Mentioned:</h2>
-							<ul>
-							  <li>
-								<a href="https://defcon.org/" target="_blank" rel="noopener noreferrer">
-								  DEFCON
-								</a> – Hacker &amp; InfoSec Conference
-							  </li>
-							  <li>
-								<a href="https://stockx.com/" target="_blank" rel="noopener noreferrer">
-								  StockX
-								</a> – Website to buy rare shoes
-							  </li>
-							</ul>
-						  </section>
-						  
-
-
-
-
-
-						<section class="post">
-							<header class="major">
-							  <span class="date">December 16th, 2024</span>
-							  <h1>Ep.10 - From Wrestling Bears to Cybersecurity: Philip Wylie, Offensive Security Expert at Horizon3.ai and Host of the Phillip Wylie Show</h1>
-							  <p>From wrestling bears to conquering cybersecurity, Philip Wylie shares his thrilling journey of resilience, self-learning, and mentorship, offering insights into the evolving cybersecurity landscape, podcasting, and building a personal brand.</p>
-							</header>
-							
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/Ks1MFSVnMg8?si=6-nWcv8dB73E-vg1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/198c57ea"></iframe>
-						
-							
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-							  <li>Transition from bear wrestling and pro wrestling to a prominent cybersecurity career.</li>
-							  <li>The impact of mentorship, self-learning, and adaptability in cybersecurity success.</li>
-							  <li>Building a personal brand through podcasting, public speaking, and content creation.</li>
-							  <li>Creating DefCon Group 940 to foster community and networking opportunities.</li>
-							  <li>The importance of certifications (CEH, CISSP) and continuous professional development.</li>
-							  <li>Reflections on public speaking, sponsorship, and balancing career growth with giving back.</li>
-							</ul>
-							
-							<h2>Books Mentioned:</h2>
-							<ul>
-							  <li>
-								<a href="https://amzn.to/4iFTFpT" target="_blank" rel="noopener noreferrer">
-								  The Pentester Blueprint
-								</a>
-								– Co-authored by Phillip Wylie
-							  </li>
-							  <li>
-								<a href="https://amzn.to/3ZEQTbR" target="_blank" rel="noopener noreferrer">
-								  Hacking Exposed
-								</a>
-								– A series popular in the late 90s and early 2000s
-							  </li>
-							</ul>
-							
-							<h2>People Mentioned:</h2>
-							<ul>
-							  <li><strong>Phillip Wylie</strong> – <a href="https://www.linkedin.com/in/phillipwylie/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-							  <li><strong>Chris Magistrado (Chris REal0day)</strong> – <a href="https://www.linkedin.com/in/cmagistrado/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-							  <li><strong>Alyssa Miller</strong> – <a href="https://www.linkedin.com/in/alyssam-infosec/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-							  <li><strong>Chloé Messdaghi</strong> – <a href="https://www.linkedin.com/in/chloemessdaghi/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-							  <li><strong>Don Weber</strong> – <a href="https://www.linkedin.com/in/cutaway/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-							  <li><strong>Jack Rhysider</strong> – <a href="https://www.youtube.com/@JackRhysider" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-							  <li><strong>Stone Cold Steve Austin</strong> – <a href="https://www.instagram.com/steveaustinbsr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-							  <li><strong>Rick Flair</strong> – <a href="https://www.youtube.com/c/ricflair" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-							  <li><strong>Sting</strong> – <a href="https://www.instagram.com/stinger/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-							  <li><strong>Iceman King Parsons</strong> – <a href="https://www.instagram.com/theicemankingparsons" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-							  <li><strong>Samson the Bear</strong> – The wrestling bear Phillip competed against.</li>
-							  <li><strong>Vince McMahon</strong> – <a href="https://x.com/vincemcmahon" target="_blank" rel="noopener noreferrer">Twitter/X</a></li>
-							  <li><strong>Dwayne "The Rock" Johnson</strong> – <a href="https://www.instagram.com/therock" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-							  <li><strong>American Gladiators</strong> – Referenced as a show Phillip once auditioned for.</li>
-							</ul>
-							
-							<h2>Podcasts Mentioned:</h2>
-							<ul>
-							  <li><a href="https://podcasts.apple.com/us/podcast/the-uncommon-journey-podcast/id1599187519" target="_blank" rel="noopener noreferrer">Uncommon Journey</a></li>
-							  <li><a href="https://darknetdiaries.com/" target="_blank" rel="noopener noreferrer">Darknet Diaries</a></li>
-							  <li><a href="https://www.scworld.com/podcast-show/pauls-security-weekly" target="_blank" rel="noopener noreferrer">Paul's Security Weekly</a></li>
-							</ul>
-							
-							<h2>Events and Locations:</h2>
-							<ul>
-							  <li><a href="https://dc940.org/" target="_blank" rel="noopener noreferrer">DefCon Group 940</a></li>
-							  <li><a href="https://www.rsaconference.com/" target="_blank" rel="noopener noreferrer">RSA Conference</a></li>
-							  <li><a href="https://bsidessf.org/" target="_blank" rel="noopener noreferrer">B-Sides San Francisco</a></li>
-							</ul>
-							
-							<h2>Certifications:</h2>
-							<ul>
-							  <li><a href="https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/" target="_blank" rel="noopener noreferrer">CEH (Certified Ethical Hacker)</a></li>
-							  <li><a href="https://www.isc2.org/certifications/cissp" target="_blank" rel="noopener noreferrer">CISSP</a></li>
-							</ul>
-							
-							<h2>Cultural References:</h2>
-							<ul>
-							  <li><a href="https://www.netflix.com/title/81115994" target="_blank" rel="noopener noreferrer">Tiger King</a></li>
-							</ul>
-						  </section>
-						  
-
-						<section class="post">
-						    <header class="major">
-							<span class="date">November 19th, 2024</span>
-							<h1>Ep.9 - Maxie Reynolds, Pioneer in Sustainable Technology and Cybersecurity</h1>
-							<p>In this episode of Hackers to Founders, Chris REal0day interviews Maxie Reynolds, a trailblazer in sustainable technology and cybersecurity. Maxie shares her journey from working as an offshore ROV pilot to founding Subsea Cloud, her transition into cybersecurity, and the unique life experiences that shaped her career. The conversation dives into red teaming, the art of social engineering, the challenges of startups, and the profound impact of literature on personal and professional growth.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/oCB2GruSum4?si=3Qjh4o28pXMAgWUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/970a31a8"></iframe>
-						
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-							<li>Overcoming family expectations to build a career offshore.</li>
-							<li>Transitioning from underwater robotics to cybersecurity.</li>
-							<li>Insights into subsea operations and underwater data centers.</li>
-							<li>Challenges of cultural differences in professional settings.</li>
-							<li>The interplay of red teaming and social engineering.</li>
-							<li>The role of literature in shaping thought processes.</li>
-							<li>Balancing the risks and rewards of entrepreneurship.</li>
-							<li>Strategies for startup growth and client acquisition.</li>
-							<li>The importance of continuous learning and authentic networking.</li>
-						    </ul>
-						
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-							<li>The enabler's dilemma and antitrust impacts on startups.</li>
-							<li>Cost and energy efficiency in subsea operations.</li>
-							<li>Carbon capture technologies and environmental skepticism.</li>
-							<li>Influence of books on professional development.</li>
-							<li>Imagination as a key tool for problem-solving.</li>
-							<li>Long-term impacts of lifestyle choices on health and happiness.</li>
-						    </ul>
-						
-						    <h2>Guest:</h2>
-						    <ul>
-							<li><strong>Maxie Reynolds:</strong></li>
-							<ul>
-							    <li>LinkedIn - <a href="https://www.linkedin.com/in/maxiereynolds/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/maxiereynolds/</a></li>
-							</ul>
-						    </ul>
-						
-						    <h2>Hackers Mentioned:</h2>
-						    <ul>
-							<li><a href="https://scottishconsulate.org/" target="_blank" rel="noopener noreferrer">Scottish Consulate Hackers</a></li>
-							<li><a href="https://www.youtube.com/@DeviantOllam" target="_blank" rel="noopener noreferrer">Deviant</a></li>
-							<li><a href="https://x.com/imredshift" target="_blank" rel="noopener noreferrer">Drew Porter</a></li>
-							<li><a href="https://x.com/grifter801" target="_blank" rel="noopener noreferrer">grifter</a></li>
-							<li><a href="https://x.com/_sn0ww" target="_blank" rel="noopener noreferrer">snow</a></li>
-							<li><a href="https://x.com/catmurd0ck" target="_blank" rel="noopener noreferrer">catmurd0ck</a></li>
-						    </ul>
-						
-						    <h2>Companies Mentioned:</h2>
-						    <ul>
-							<li><a href="https://redteamalliance.com/" target="_blank" rel="noopener noreferrer">Red Team Alliance</a></li>
-							<li><a href="https://www.redteamradio.net/" target="_blank" rel="noopener noreferrer">Red Team Radio</a></li>
-						    </ul>
-						
-						    <h2>Books Mentioned:</h2>
-						    <ul>
-							<li><a href="https://amzn.to/3VpesEj" target="_blank" rel="noopener noreferrer">How the World Really Works</a> by Vaclav Smil</li>
-							<li><a href="https://amzn.to/3ZBRzzQ" target="_blank" rel="noopener noreferrer">The Art of Seduction</a> by Robert Greene</li>
-							<li><a href="https://amzn.to/3VnlJof" target="_blank" rel="noopener noreferrer">Atomic Habits</a> by James Clear</li>
-							<li><a href="https://amzn.to/3CW00x4" target="_blank" rel="noopener noreferrer">Outlaw Ocean</a> by Deckle Edge</li>
-							<li><a href="https://amzn.to/4fYInvp" target="_blank" rel="noopener noreferrer">Freakonomics</a> by Steven Levitt</li>
-							<li><a href="https://amzn.to/4gnhcu1" target="_blank" rel="noopener noreferrer">Stuff Matters</a> by Mark Miodownik</li>
-							<li><a href="https://amzn.to/3VpFzz8" target="_blank" rel="noopener noreferrer">New Confessions of an Economic Hitman</a> by John Perkins</li>
-							<li><a href="https://amzn.to/49jTz3b" target="_blank" rel="noopener noreferrer">Blueprint: How DNA Makes Us Who We Are</a> by Robert Plomin</li>
-						    </ul>
-						</section>
-
-						<section class="post">
-						    <header class="major">
-						        <span class="date">November 19th, 2024</span>
-						        <h1>Ep.8 - Marcus Sailler, Red Team Expert and Cybersecurity Veteran</h1>
-						        <p>In this episode of Hackers to Founders, Chris REal0day interviews Marcus Sailler, a cybersecurity veteran with over 25 years of experience. Together, they explore Marcus's journey from the military to leading red teams, the importance of understanding business impact in cybersecurity, and the evolving dynamics of the cybersecurity landscape.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/CGK5qKPxL70?si=Zwa50UFzgzlN-MsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/564a4ecd"></iframe>
-						    
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-						        <li>The importance of understanding the business impact of red team findings.</li>
-						        <li>Interactive and discussion-based interviewing techniques in cybersecurity.</li>
-						        <li>The value of early career experiences in shaping cybersecurity expertise.</li>
-						        <li>How military service can provide a strong foundation for IT careers.</li>
-						        <li>Strategies for building effective and mature red teams.</li>
-						        <li>The significance of networking and continuous learning for career growth.</li>
-						        <li>Using industry breaches to validate and refine security programs.</li>
-						        <li>Transitioning from pen testing to red teaming with curiosity and initiative.</li>
-						        <li>The evolving role of social engineering techniques like vishing.</li>
-						        <li>The #WeHackHealth movement, blending fitness and cybersecurity.</li>
-						    </ul>
-						    
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-						        <li>The interplay between red and blue teams in modern organizations.</li>
-						        <li>Ethical considerations around the use of zero-day vulnerabilities.</li>
-						        <li>Managing legacy vulnerabilities in modern security environments.</li>
-						        <li>The challenges of vulnerability management in multi-cloud ecosystems.</li>
-						        <li>Soft skills and cultural insights for effective leadership and team dynamics.</li>
-						        <li>The importance of hands-on training and certifications for aspiring red teamers.</li>
-						        <li>Resilience and self-awareness as keys to personal and professional growth.</li>
-						    </ul>
-						    
-						    <h2>Guest:</h2>
-						    <ul>
-						        <li><strong>Marcus Sailler:</strong></li>
-						        <ul>
-						            <li>LinkedIn - <a href="https://www.linkedin.com/in/marcus-s-8bbb5340/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/marcus-s-8bbb5340/</a></li>
-						        </ul>
-						    </ul>
-						    
-						    <h2>Trainings Mentioned:</h2>
-						    <ul>
-						        <li><a href="https://specterops.io/training/" target="_blank" rel="noopener noreferrer">SpectorOps.io Training</a></li>
-						    </ul>
-						    
-						    <h2>Books Mentioned:</h2>
-						    <ul>
-						        <li><a href="https://amzn.to/4145X5a" target="_blank" rel="noopener noreferrer">Red Team Development and Operations: A Practical Guide</a> by Joe Vest and James Tubberville</li>
-						        <li><a href="https://amzn.to/3Ops6n5" target="_blank" rel="noopener noreferrer">The Art of Attack: Attacker Mindset for Security Professionals</a> by Maxie Reynolds</li>
-						        <li><a href="https://amzn.to/4fJR1O3" target="_blank" rel="noopener noreferrer">The 5 Love Languages: The Secret to Love That Lasts</a> by Gary Chapman</li>
-						        <li><a href="https://amzn.to/3Vc8juW" target="_blank" rel="noopener noreferrer">The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph</a> by Ryan Holiday</li>
-						    </ul>
-						</section>
-						
-						<section class="post">
-						    <header class="major">
-						        <span class="date">November 19th, 2024</span>
-						        <h1>Ep.7 - Lauro Perez, Software Engineer and Cybersecurity Enthusiast</h1>
-						        <p>Join Chris REal0day in an enlightening conversation with Lauro Perez as he shares his inspiring journey from a young computer enthusiast to a professional software engineer and cybersecurity advocate. Dive into pivotal career moments, challenges, and the evolution of the cybersecurity industry.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/AJq-YdCEsDc?si=DwfSRbVRtD7-4iAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/e1ce2b39"></iframe>
-						    
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-						        <li>Lauro's passion for computers starting at age 10 and the perseverance shaping his career.</li>
-						        <li>The impact of a life-changing scholarship and networking in securing job offers.</li>
-						        <li>The importance of soft skills, confidence, and concrete achievements in interviews.</li>
-						        <li>How mentorship and self-study have influenced Lauro's growth in the field.</li>
-						        <li>AI tools' role in enhancing learning, cybersecurity, and content creation.</li>
-						        <li>Balancing work, family, and personal projects while overcoming imposter syndrome.</li>
-						    </ul>
-						    
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-						        <li>Challenges like AI's role in cybersecurity, unfair bug bounty rewards, and ransomware-as-a-service.</li>
-						        <li>Sharing knowledge to empower others and reinforce personal learning.</li>
-						        <li>Trends like AI and diverse representation reshaping the cybersecurity industry.</li>
-						        <li>The importance of hands-on learning versus traditional computer science education.</li>
-						        <li>Authentic, unscripted content as a means to foster engaging discussions.</li>
-						        <li>Collaboration and personal experiences driving innovation in tech, health, and gaming.</li>
-						    </ul>
-						    
-						    <h2>Guest:</h2>
-						    <ul>
-						        <li><strong>Lauro Perez:</strong></li>
-						        <ul>
-						            <li>LinkedIn - <a href="https://www.linkedin.com/in/lauroperezjr/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/lauroperezjr/</a></li>
-						        </ul>
-						    </ul>
-						    
-						    <h2>Podcast</h2>
-						    <ul>
-						        <li><strong>Exploit Brokers:</strong></li>
-						        <ul>
-						            <li>Website - <a href="https://exploitbrokers.com/" target="_blank" rel="noopener noreferrer">https://exploitbrokers.com/</a></li>
-						            <li>YouTube - <a href="https://www.youtube.com/@exploitbrokers" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@exploitbrokers</a></li>
-						            <li>Spotify - <a href="https://open.spotify.com/show/3YRafqb2OGxfXgoIPfRbe2?si=40e21cd5ac0b45c0" target="_blank" rel="noopener noreferrer">https://open.spotify.com/show/3YRafqb2OGxfXgoIPfRbe2?si=40e21cd5ac0b45c0</a></li>
-						            <li>Rumble - <a href="https://rumble.com/user/ExploitBrokers" target="_blank" rel="noopener noreferrer">https://rumble.com/user/ExploitBrokers</a></li>
-						        </ul>
-						    </ul>
-						</section>
-
-						<section class="post">
-						    <header class="major">
-						        <span class="date">November 11th, 2024</span>
-						        <h1>Ep.6 - Sumit "Sid" Siddharth, Founder of SecOps Group</h1>
-						        <p>Join Chris REal0day in an inspiring conversation with Sid, a hacker from India who moved the UK and surrounded himself with the best of the best, to learn and grow our industry.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/y8eRc4etUe8?si=UR1OuBOnCDICLzSp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/afd1271a"></iframe>
-						    
-							<h2>Key Highlights in This Episode:</h2>
-							<ul>
-								<li>Sid's journey from a small town in India to becoming an international cybersecurity entrepreneur.</li>
-								<li>The importance of peer relationships in career growth and development.</li>
-								<li>How transitioning from corporate life to founding NotSoSecure shaped Sid's entrepreneurial mindset.</li>
-								<li>The role of training in scaling a cybersecurity business.</li>
-								<li>Insights into the acquisition of NotSoSecure and the strategy behind its growth.</li>
-							</ul>
-							
-							<h2>Additional Topics Covered:</h2>
-							<ul>
-								<li>Building a brand through innovative and accessible exam models in cybersecurity education.</li>
-								<li>Challenges and strategies in the service business landscape compared to product-based ventures.</li>
-								<li>The evolving impact of certifications and training in the cybersecurity field.</li>
-								<li>SecOps Group's approach to making high-quality exams affordable and widely available.</li>
-								<li>The role of mentorship, networking, and community engagement in entrepreneurial success.</li>
-							</ul>
-							
-							<h2>Guest:</h2>
-							<ul>
-								<li><strong>Sid:</strong></li>
-								<ul>
-									<li>LinkedIn - <a href="https://www.linkedin.com/in/sumsid/">https://www.linkedin.com/in/sumsid/</a></li>
-								</ul>
-							</ul>
-							
-							<h2>Company:</h2>
-							<ul>
-								<li><strong>SecOps Group:</strong></li>
-								<ul>
-									<li>Website - <a href="https://secops.group/">https://secops.group/</a></li>
-								</ul>
-							</ul>
-						    
-						</section>
-						<section class="post">
-						    <header class="major">
-						        <span class="date">November 4th, 2024</span>
-						        <h1>Episode 5: Greg Martin, Cybersecurity Pioneer and Ghost Security Founder</h1>
-						        <p>Join Chris REal0day in an inspiring conversation with Greg Martin, who shares his journey from a young hacker in a small Texas town to the CEO of Ghost Security. Greg reflects on his early days, the rise of Linux, his work with the FBI and Secret Service, and his transition to entrepreneurship, offering invaluable insights for aspiring cybersecurity professionals.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/GQ6l7gKUpRw?si=U1c2s2wD4BRve4Ml" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/b86b9de5"></iframe>
-						    
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-						        <li>Greg's journey from early tech curiosity to becoming a cybersecurity expert.</li>
-						        <li>His pivotal role at a local ISP and transition to data centers during the cloud computing boom.</li>
-						        <li>Work with the FBI, Secret Service, and private sectors to combat cybercrime.</li>
-						        <li>Insights into founding Ghost Security and the challenges of startup life.</li>
-						        <li>The role of mentorship in cybersecurity and training the next generation of professionals.</li>
-						    </ul>
-						    
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-						        <li>Experiences in the Secret Service Nitro program for cybercrime initiatives.</li>
-						        <li>Greg's entrepreneurial journey from developing open-source tools to launching startups.</li>
-						        <li>Balancing technical innovation with the business demands of a startup.</li>
-						        <li>The evolving impact of AI in cybersecurity and automation's role in productivity.</li>
-						        <li>Importance of understanding market needs and evolving technology for long-term success.</li>
-						    </ul>
-						    
-						    <li><strong>Greg Martin:</strong></li>
-						    <ul>
-						        <li>LinkedIn - <a href="https://www.linkedin.com/in/gregcmartin/">https://www.linkedin.com/in/gregcmartin/</a></li>
-						    </ul>
-						    
-						    <li><strong>Ghost Security:</strong></li>
-						    <ul>
-						        <li>Website - <a href="https://ghostsecurity.com/">https://ghostsecurity.com/</a></li>
-						        <li>Ghost Security Reaper - <a href="https://github.com/ghostsecurity/reaper">https://github.com/ghostsecurity/reaper</a></li>
-						    </ul>
-						    
-						</section>
-
-						<section class="post">
-						    <header class="major">
-						        <span class="date">October 29th, 2024</span>
-						        <h1>Episode 4: Hahna Latonick, Cybersecurity Expert and Dark Wolf Solutions Innovator</h1>
-						        <p>An insightful conversation with Hahna Latonick, where she discusses her 18-year journey in cybersecurity, her experiences in Capture the Flag competitions, her work at Dark Wolf Solutions, and key advice for cybersecurity entrepreneurs.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/076R_wTZ_5o?si=DesWeU2w-7SaqH3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/08e8f53c"></iframe>
-						    
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-						        <li>Hahna's journey from early tech curiosity to cybersecurity expertise.</li>
-						        <li>Her participation in Capture the Flag competitions and its impact on her career.</li>
-						        <li>Role at Dark Wolf Solutions and their focus on zero-day vulnerabilities and drone technology.</li>
-						        <li>Networking strategies for small businesses in government contracting and leveraging set-asides on SAM.gov.</li>
-						        <li>Importance of customer intimacy, mentorship, and continuous learning in cybersecurity.</li>
-						    </ul>
-						    
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-						        <li>Scaling success in defense contracting and innovative projects at Dark Wolf Solutions.</li>
-						        <li>Strategies for engaging small business offices for contract opportunities.</li>
-						        <li>Cybersecurity's role in national security and daily life, especially in hostile environments.</li>
-						        <li>Hahna's entrepreneurial spirit, side hustles, and her emphasis on self-investment and learning.</li>
-						        <li>Networking at conferences and exploring new business avenues in the tech industry.</li>
-						    </ul>
-						    
-						    <li><strong>Hahna Latonick:</strong></li>
-						    <ul>
-						        <li>LinkedIn - <a href="https://www.linkedin.com/in/hahnakane/">https://www.linkedin.com/in/hahnakane/</a></li>
-						        <li>X - <a href="https://twitter.com/hahnakane">https://twitter.com/hahnakane</a></li>
-						        <li>BSides Tampa Presentation - <a href="https://youtu.be/xi5EFPmw18g?si=w10fpRjv4hswWMc_">https://youtu.be/xi5EFPmw18g?si=w10fpRjv4hswWMc_</a></li>
-						    </ul>
-						    
-						    <li><strong>Dark Wolf Solutions:</strong></li>
-						    <ul>
-						        <li>Website - <a href="https://darkwolfsolutions.com/">https://darkwolfsolutions.com/</a></li>
-						        <li>Android Security Research Playbook - <a href="https://asrp.darkwolf.io/">https://asrp.darkwolf.io/</a></li>
-						        <li>Drone Security Research Playbook - <a href="https://dronewolf.darkwolf.io/">https://dronewolf.darkwolf.io/</a></li>
-						        <li>IoT Exploitation Blog Post - <a href="https://blog.darkwolfsolutions.com/dws-blog-09-26-2024-ep-15">https://blog.darkwolfsolutions.com/dws-blog-09-26-2024-ep-15</a></li>
-						        <li>Spoofing Mint Browser Blog Post - <a href="https://blog.darkwolfsolutions.com/dws-blog-07-30-2024-ep-8">https://blog.darkwolfsolutions.com/dws-blog-07-30-2024-ep-8</a></li>
-						    </ul>
-						    
-						    <li><strong>Topics:</strong></li>
-						    <ul>
-						        <li>Mastering Your Money - Stop Yearning Start Earning - <a href="https://amzn.to/48nuOTf">https://amzn.to/48nuOTf</a></li>
-						        <li>Unlock Your Millionaire Mindset Today Course - <a href="https://www.udemy.com/course/unlock-your-millionaire-mindset-today/">https://www.udemy.com/course/unlock-your-millionaire-mindset-today/</a></li>
-						        <li>The Personal MBA - <a href="https://amzn.to/3Ys9gQE">https://amzn.to/3Ys9gQE</a></li>
-						    </ul>
-						</section>
-
-						<section class="post">
-						    <header class="major">
-						        <span class="date">October 21st, 2024</span>
-						        <h1>Episode 3: Alan Braithwaite, Co-Founder and CTO of RunReveal</h1>
-						        <p>An in-depth conversation with Alan Braithwaite about his journey from hacker to entrepreneur, his work in cybersecurity, and the development of RunReveal.</p>
-						    </header>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/jXvkG4pQJ8A?si=3pHZwPZdjNDlW5sd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/6933f74c"></iframe>
-						
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-						        <li>Alan's journey from hacker to CTO, highlighting his work at Cloudflare, Segment, and RunReveal.</li>
-						        <li>Founding RunReveal and understanding customer needs in the cybersecurity landscape.</li>
-						        <li>Importance of customer feedback in product development and the value of engaging with paying customers.</li>
-						        <li>Developing a user-friendly product, data management, and the introduction of streaming detections.</li>
-						        <li>Vision for a flexible security pipeline and strategies for customer acquisition.</li>
-						    </ul>
-						
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-						        <li>The challenges of on-prem solutions and the journey of founding a cybersecurity startup.</li>
-						        <li>Philosophical influences and the importance of curiosity in cybersecurity.</li>
-						        <li>Balancing the big picture with being present in the moment.</li>
-						        <li>Alan's recommendations for books and resources that shaped his career.</li>
-						    </ul>
-					    <li><strong>Alan Braithwaite:</strong></li>
-						    <ul>
-							<li>LinkedIn - 	<a href="https://www.linkedin.com/in/alan-braithwaite">https://www.linkedin.com/in/alan-braithwaite/</a></li>
-							<li>X - 	<a href="https://x.com/caust1c">https://x.com/caust1c</a></li>
-							<li>RunReveal - <a href="https://runreveal.com/">https://runreveal.com/</a></li>
-						    </ul>
-						</section>
-
-						<section class="post">
-						    <header class="major">
-						        <span class="date">October 15th, 2024</span>
-						        <h1>Episode 2: Umit Aksu (@MobileHackingLab), Founder of Mobile Hacking Lab</h1>
-						        <p>An in-depth conversation with Umit Aksu, covering his career journey, insights on cybersecurity education, and his pioneering work at Mobile Hacking Lab.</p>
-						    </header>
-						    <iframe width="560" height="315" src="https://www.youtube.com/embed/TBhpi-NSIA0?si=KkhYN6-IafBIOtyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						    <iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/46d39379?color=FFFFFF&background=30343C"></iframe>
-						
-						    <h2>Key Highlights in This Episode:</h2>
-						    <ul>
-						        <li>Umit's path from cybersecurity roles at ING, DarkMatter, and Microsoft to founding Mobile Hacking Lab.</li>
-						        <li>The inception of Mobile Hacking Lab: the first lab to offer an immersive mobile research environment, developed with Corellium.</li>
-						        <li>The lab's mission to equip penetration testers and security researchers with practical tools and 0day discovery skills across mobile applications and ecosystems.</li>
-						        <li>Expertise of Mobile Hacking Lab educators, delivering real-world experience in 0day research to empower security professionals.</li>
-						        <li>Corellium overview, led by Amanda Gorton and Bill Neifert, as a powerful mobile virtualization platform chosen by mobile security researchers.</li>
-						    </ul>
-						
-						    <h2>Additional Topics Covered:</h2>
-						    <ul>
-						        <li>Insights into building and leading cybersecurity programs.</li>
-						        <li>Future offerings at Mobile Hacking Lab, including specialized courses in userland and kernel fuzzing.</li>
-						        <li>How the Corellium partnership enhances Mobile Hacking Lab's capabilities, making advanced security research more accessible.</li>
-						    </ul>
-						
-						    <section class="post">
-						        <header class="major">
-						            <h4>Social Links:</h4>
-						        </header>
-						        <ul>
-						            <li><strong>Umit Aksu</strong></li>
-						            <ul>
-						                <li>LinkedIn - <a href="https://www.linkedin.com/in/umit-aksu-7397485b/">https://www.linkedin.com/in/umit-aksu-7397485b/</a></li>
-						                <li>Mobile Hacking Lab - <a href="https://www.mobilehackinglab.com/link/B1zkaV">https://www.mobilehackinglab.com/link/B1zkaV</a></li>
-						            </ul>
-						            <li><strong>Chris Magistrado (Host):</strong></li>
-						            <ul>
-						                <li>LinkedIn - <a href="https://linkedin.com/in/cmagistrado">https://linkedin.com/in/cmagistrado</a></li>
-						                <li>X - <a href="https://x.com/REal0day">https://x.com/REal0day</a></li>
-						                <li>Podcast - <a href="https://hackerstofounders.com">https://hackerstofounders.com</a></li>
-						                <li>Recruiting Agency - <a href="https://TopClearedRecruiting.com">https://TopClearedRecruiting.com</a></li>
-						                <li>Articles - <a href="https://medium.com/@real0day">https://medium.com/@real0day</a></li>
-						            </ul>
-						            <li><strong>Corellium Leadership:</strong></li>
-						            <ul>
-						                <li>Amanda Gorton - <a href="https://www.linkedin.com/in/amandafgorton">https://www.linkedin.com/in/amandafgorton</a></li>
-						                <li>Bill Neifert - <a href="https://www.linkedin.com/in/billneifert/">https://www.linkedin.com/in/billneifert/</a></li>
-						            </ul>
-						        </ul>
-						        
-						        <h4>Follow Us for More Episodes and Updates:</h4>
-						        <ul>
-						            <li>X - <a href="https://x.com/Hacker2Founder">https://x.com/Hacker2Founder</a></li>
-						            <li>Instagram - <a href="https://instagram.com/hackerstofounders">https://instagram.com/hackerstofounders</a></li>
-						            <li>TikTok - <a href="https://www.tiktok.com/@hackerstofounders">https://www.tiktok.com/@hackerstofounders</a></li>
-						            <li>LinkedIn - <a href="https://www.linkedin.com/showcase/105189100">https://www.linkedin.com/showcase/105189100</a></li>
-						            <li>Discord - <a href="https://discord.gg/2TnH6hkuTG">https://discord.gg/2TnH6hkuTG</a></li>
-						            <li>Spotify - <a href="https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6?si=af728a2b3cb74d8b">https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6?si=af728a2b3cb74d8b</a></li>
-						            <li>Apple iTunes - <a href="https://podcasts.apple.com/us/podcast/hackers-to-founders/id1771903476">https://podcasts.apple.com/us/podcast/hackers-to-founders/id1771903476</a></li>
-						            <li>Amazon Music - <a href="https://music.amazon.com/podcasts/e34efad3-bf38-431d-be45-348ef6838262/hackers-to-founders">https://music.amazon.com/podcasts/e34efad3-bf38-431d-be45-348ef6838262/hackers-to-founders</a></li>
-						        </ul>
-						    </section>
-						</section>
-
-						<section class="post">
-						    <header class="major">
-						        <span class="date">October 8th, 2024</span>
-						        <h1>Episode 1: Jordan Wiens @psifertex, Co-Founder of Vector 35, Binary Ninja</h1>
-						        <p>Exploring the intricacies of pricing strategies, administrative challenges, and market dynamics in the cybersecurity sphere.</p>
-						    </header>
-							 <iframe width="560" height="315" src="https://www.youtube.com/embed/N7YvYCd0V2A?si=6GqFBeTvFk4Da59s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-							<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/17e0777c?color=FFFFFF&background=30343C"></iframe>
-						    <p>In a recent episode featuring Jordan Wiens, co-founder of Vector 35, several critical aspects of running a business in the cybersecurity industry were discussed. From pricing strategies to overcoming administrative challenges and navigating market dynamics, Wiens shared invaluable insights derived from his extensive experience. This blog post delves into these insights, providing a deeper understanding of the strategies and decisions that shape the success of a cybersecurity company.</p>
-						
-						    <h2>Setting Effective Pricing Strategies</h2>
-						    <p>One of the key takeaways from Wiens' discussion was the importance of defining a clear pricing strategy. Vector 35 initially set a low pricing threshold of $1500 for their licenses, but soon realized that negotiating individually for low-priced licenses consumed a disproportionate amount of time and resources. Wiens explained that they eventually raised the minimum threshold for negotiations to $15,000. This strategic move helped streamline their sales processes and reduce administrative burdens, allowing the team to focus on more significant, lucrative deals.</p>
-						
-						    <h2>Overcoming Administrative Challenges</h2>
-						    <p>Wiens shared a particularly insightful anecdote involving interactions with a financial institution. The institution's purchasing process for small purchases was so inefficient that it stretched over six to nine months. This experience was a turning point for Vector 35, leading to the realization that engaging extensively with prolonged paperwork for low-value deals was untenable. Thus, they set clearer policies to avoid bureaucratic tangles, ultimately reducing wasted time and resources.</p>
-						
-						    <h2>Adapting Market Entry Tactics</h2>
-						    <p>The discussion also highlighted different strategies for entering new markets. Wiens compared tactics such as offering products at reduced prices or even for free initially to gain market share, similar to PayPal's approach. This strategy can be beneficial in establishing a product's presence in the market before introducing fees. It's a delicate balance between attracting new users and ensuring sustainable revenue.</p>
-						
-						    <h2>Navigating Enterprise Sales</h2>
-						    <p>When it comes to large enterprise-level deals, Wiens acknowledged the unavoidable complexity. These deals typically involve detailed contracts and negotiation processes, often demanding more time and resources. However, the payoff is considerably higher, making the effort worthwhile. For instance, a telecom company once purchased 40 licenses, highlighting the potential revenue from such sizeable contracts.</p>
-						
-						    <h2>Impact of Free Tools on the Market</h2>
-						    <p>The emergence of free alternatives like Ghidra has significantly impacted Binary Ninja's strategy. Wiens noted that while these free tools appealed to students and hobbyists, the market remains dynamic with shifting preferences. Offering significant value through continuous product enhancements is key to staying competitive.</p>
-						
-						    <h2>Balancing Commercial and Non-Commercial Licenses</h2>
-						    <p>Vector 35 has a higher volume of non-commercial licenses compared to commercial ones. However, commercial licenses contribute significantly more to their revenue due to higher pricing and the value-added services they offer. This highlights the importance of maintaining a diversified clientele to balance volume with value.</p>
-						
-						    <h2>Company Growth and Financial Strategies</h2>
-						    <p>Wiens revealed that after facing a period of flat growth, the company considered taking on external investment. Although it was a precautionary measure and ultimately unnecessary, it underscores the need for strategic financial planning to navigate competitive market landscapes.</p>
-						
-						    <h2>Importance of Team Motivation and Product Passion</h2>
-						    <p>The development of Binary Ninja, initially an open-source tool for CTF competitions, underscores the Vector 35 team's passion for their work. Despite the potential for higher earnings elsewhere, the team remains committed to the project due to a shared vision and genuine interest in the field.</p>
-						
-						    <h2>Conference and Community Engagement</h2>
-						    <p>Wiens discussed an upcoming conference titled "Reverse," set to take place in Orlando, Florida. This community-focused event aims to foster a tight-knit environment, reflecting Vector 35's commitment to engaging with and contributing to the broader cybersecurity community. Plans to maintain the conference's intimate atmosphere include limiting attendance to 400 tickets and ensuring all attendees engage with the same content.</p>
-						
-						    <h2>Conclusion</h2>
-						    <p>Jordan Wiens' insights provide a comprehensive look into the strategic considerations essential for a cybersecurity business's success. From effective pricing strategies and managing administrative challenges to adapting market entry tactics and maintaining team motivation, these lessons are crucial for any enterprise navigating the intricate cybersecurity landscape. The ongoing evolution of tools and market dynamics highlighted by Wiens underscores the importance of adaptability and continuous learning in achieving and sustaining success. As Vector 35 continues to grow and innovate, their commitment to quality and community engagement remains a cornerstone of their strategy.</p>
-						<section class="post">
-						    <header class="major">
-						        <h4>Social Links:</h4>
-						    </header>
-						    <ul>
-						        <li><strong>Jordan Wiens</strong></li>
-						        <ul>
-						            <li>X - <a href="https://x.com/psifertex">https://x.com/psifertex</a></li>
-						            <li>LinkedIn - <a href="https://www.linkedin.com/in/jwiens">https://www.linkedin.com/in/jwiens</a></li>
-						            <li>Vector 35 - <a href="https://vector35.com/">https://vector35.com/</a></li>
-						            <li>Binary Ninja - <a href="https://binary.ninja/">https://binary.ninja/</a></li>
-						        </ul>
-						        <li><strong>Chris Magistrado (Host):</strong></li>
-						        <ul>
-						            <li>LinkedIn - <a href="https://linkedin.com/in/cmagistrado">https://linkedin.com/in/cmagistrado</a></li>
-						            <li>X - <a href="https://x.com/REal0day">https://x.com/REal0day</a></li>
-						            <li>Articles - <a href="https://medium.com/@real0day">https://medium.com/@real0day</a></li>
-						            <li>Recruiting Agency - <a href="https://TopClearedRecruiting.com">https://TopClearedRecruiting.com</a></li>
-						            <li>Podcast - <a href="https://hackerstofounders.com">https://hackerstofounders.com</a></li>
-						        </ul>
-						        <li><strong>Hackers Mentioned:</strong></li>
-						        <ul>
-						            <li>Rusty Wagner @D0ntPanic - <a href="https://github.com/D0ntPanic">https://github.com/D0ntPanic</a></li>
-						            <li>Jayson Street - <a href="https://www.instagram.com/jayson.street/">https://www.instagram.com/jayson.street/</a> - <a href="https://www.linkedin.com/in/jstreet/">https://www.linkedin.com/in/jstreet/</a></li>
-						            <li>Jeremiah Grossman - <a href="https://x.com/jeremiahg">https://x.com/jeremiahg</a></li>
-						            <li>Mike Frantzen - <a href="https://www.linkedin.com/in/mike-frantzen/">https://www.linkedin.com/in/mike
-							<li><strong>Conference Details:</strong></li>
-							<ul>
-							    <li>Re-verse Conference - <a href="https://re-verse.io/">https://re-verse.io/</a></li>
-							    <li>Date: February 28 to March 1</li>
-							    <li>Location: Orlando, Florida</li>
-							</ul>
-							<li><strong>Companies and Tools Mentioned:</strong></li>
-							<ul>
-							    <li>Binary Ninja - <a href="https://binary.ninja/">https://binary.ninja/</a></li>
-							    <li>IDA Pro - <a href="https://hex-rays.com/ida-pro">https://hex-rays.com/ida-pro</a></li>
-							    <li>Ghidra - <a href="https://ghidra-sre.org/">https://ghidra-sre.org/</a></li>
-							</ul>
-							<li><strong>Miscellaneous Tools and References:</strong></li>
-							<ul>
-							    <li>CUI Standard - NIST Guidelines: <a href="https://csrc.nist.gov/projects/protecting-controlled-unclassified-information">https://csrc.nist.gov/projects/protecting-controlled-unclassified-information</a></li>
-							    <li>Capture The Flag (CTF) Competitions: <a href="https://ctftime.org/">https://ctftime.org/</a></li>
-							</ul>
-						</section>
-						
-						<section class="post">
-	<header class="major">
-		<span class="date">October 2nd, 2024</span>
-		<h1>Hackers to Founders - Episode 0 Released!<br /></h1>
+		<!-- Decorative grid pattern -->
+		<div class="h2f-hero-bg"></div>
 	</header>
-	<p>Welcome to the debut episode of "Hackers to Founders"! Join Chris Magistrado, aka REal0day, as he shares his unique journey from discovering gaming glitches to becoming a cybersecurity expert, business enthusiast, and podcast host. In this self-interview, Chris dives into his personal stories, career advice, and essential insights for aspiring cybersecurity professionals.</p>
 
-	<center><p><iframe width="560" height="315" src="https://www.youtube.com/embed/jfxLtOIEiF8?si=T_NIhWjDn5dtuhL9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-	<br>
-	<p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/5BgjVtDJc7xoyiQlbhKmL6?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p></center>
-	<p><b>Connect with Us:</b><br />
-	Spotify: <a href="https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6?si=591d5f0477644225">https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6?si=591d5f0477644225</a><br />
-	YouTube: <a href="https://youtu.be/jfxLtOIEiF8?si=2Ab-xXxMa2VaZcVK">https://youtu.be/jfxLtOIEiF8?si=2Ab-xXxMa2VaZcVK</a><br />
-	X (Twitter): <a href="https://x.com/Hacker2Founder">https://x.com/Hacker2Founder</a><br />
-	Instagram: <a href="https://instagram.com/hackerstofounders">https://instagram.com/hackerstofounders</a><br />
-	TikTok: <a href="https://www.tiktok.com/@hackerstofounders">https://www.tiktok.com/@hackerstofounders</a><br />
-	LinkedIn: <a href="https://www.linkedin.com/showcase/105189100">https://www.linkedin.com/showcase/105189100</a><br />
-	Discord: <a href="https://discord.gg/2TnH6hkuTG">https://discord.gg/2TnH6hkuTG</a><br />
-	Website: <a href="https://HackersToFounders.com">https://HackersToFounders.com</a><br />
-	Podcast Website: <a href="https://podcast.HackersToFounders.com">https://podcast.HackersToFounders.com</a></p>
+	<!-- Notable guests strip -->
+	<section class="h2f-guests">
+		<div class="h2f-guests-inner">
+			<span class="h2f-guests-label">Past guests include</span>
+			<div class="h2f-guests-list">
+				<span>Jeremiah Grossman <em>/ Root Evidence</em></span>
+				<span>Adam Shostack <em>/ CVE co-creator</em></span>
+				<span>Jack Rhysider <em>/ Darknet Diaries</em></span>
+				<span>Vivek Ramachandran <em>/ SquareX (acq. Zscaler)</em></span>
+				<span>Jordan Wiens <em>/ Vector 35</em></span>
+				<span>Maxie Reynolds <em>/ Subsea Cloud</em></span>
+				<span>Greg Martin <em>/ Ghost Security</em></span>
+				<span>Alan Braithwaite <em>/ RunReveal</em></span>
+			</div>
+		</div>
+	</section>
 
-	<h2>In This Episode:</h2>
-	<ul>
-		<li><b>Bypassing Windows Defender:</b> Chris shares insights from his latest class and offers practical tips.</li>
-		<li><b>Career Advice:</b> Experiment, read books, watch Defcon talks, and set up a home lab or virtual machines for hands-on learning.</li>
-		<li><b>Hacking:</b> The importance of hacking in a controlled, legal environment.</li>
-		<li><b>Success Qualities:</b> Resilience and networking are key to thriving in the cybersecurity community.</li>
-		<li><b>Networking Events:</b> Learn about opportunities at Defcon, Black Hat, local hacker meetups like BSides, and Europe's CCC.</li>
-		<li><b>Personal Journey:</b> Chris recounts his college experience, challenges, and pivotal moments that led to his cybersecurity career.</li>
-		<li><b>Recruiting:</b> Transitioning to a recruiter and operating TopCleared Recruiting, focusing on elite cybersecurity talent.</li>
-		<li><b>Cloud Computing Impact:</b> How AWS and cloud services revolutionized the tech and cybersecurity landscape.</li>
-		<li><b>AI in Cybersecurity:</b> The growing role of AI in identifying and exploiting vulnerabilities.</li>
-		<li><b>Personal Security Tips:</b> Recommendations for antivirus software, VPN usage, and staying safe online.</li>
-		<li><b>Special Features:</b> Learn how Chris established a hacking club at SF State and brought in industry professionals to inspire students.</li>
-		<li><b>Innovative Projects:</b> Hear about Chris's personal projects and achievements in cybersecurity.</li>
-	</ul>
+	<!-- Subscribe section (Kit form) -->
+	<section class="h2f-subscribe" id="subscribe">
+		<div class="h2f-subscribe-inner">
+			<div class="h2f-subscribe-copy">
+				<h2>New episodes, in your inbox.</h2>
+				<p>No pitches, no spam. Just a note when a new conversation drops.</p>
+			</div>
+			<div class="h2f-subscribe-form">
+				<!-- Kit embed -->
+				<script async data-uid="f3b7805902" src="https://hackers-to-founders.kit.com/f3b7805902/index.js"></script>
+			</div>
+		</div>
+	</section>
 
-	<h2>Resources Mentioned:</h2>
-	<ul>
-		<li><a href="https://www.youtube.com/watch?v=OAI8S2houW4">Zoz's Defcon 18 Talk</a></li>
-		<li><a href="https://www.youtube.com/watch?v=JsVtHqICeKE">Jayson Street Intro Talk</a></li>
-		<li><a href="https://redmesa.io/">Drew Porter</a></li>
-		<li><a href="https://x.com/fuzzynop">Josh Schwartz</a></li>
-		<li><a href="https://www.mobilehackinglab.com/link/B1zkaV">Mobile Hacking Lab</a></li>
-		<li><a href="https://www.startupschool.org/">Y Combinator Startup School</a></li>
-		<li><a href="https://defcon.org/">DEF CON</a></li>
-		<li><a href="https://bsides.org/w/page/12194156/FrontPage">BSides</a></li>
-		<li><a href="https://www.blackhat.com/">BlackHat Conference</a></li>
-		<li><a href="https://www.rsaconference.com/">RSA Conference</a></li>
-	</ul>
+	<!-- About section -->
+	<section class="h2f-about" id="about">
+		<div class="h2f-about-inner">
 
-	<h2>Tools Mentioned:</h2>
-	<ul>
-		<li><a href="https://ghidra-sre.org/">Ghidra</a></li>
-		<li><a href="https://binary.ninja/">BinaryNinja</a></li>
-	</ul>
-
-	<h2>Books and Authors:</h2>
-	<ul>
-		<li><a href="https://www.linkedin.com/in/marcuspinto1">Marcus Pinto</a> (author of WebApp Hackers Handbook)</li>
-		<li><a href="https://www.linkedin.com/in/brucedang/">Bruce Dang</a> (Practical Reverse Engineering)</li>
-		<li><a href="https://www.linkedin.com/in/eliasbachaalany/">Elias Bachaalany</a> (Practical Reverse Engineering)</li>
-		<li><a href="https://www.linkedin.com/in/andrew-honig-82239750/">Andrew Honig</a> (Practical Malware Analysis)</li>
-		<li><a href="https://www.linkedin.com/in/mikesiko/">Michael Sikorski</a> (Practical Malware Analysis)</li>
-		<li><a href="https://www.linkedin.com/in/andrewcase/">Andrew Case</a> (The Art of Memory Forensics)</li>
-		<li><a href="https://www.gleeda.org/">Jamie Levy</a> (The Art of Memory Forensics)</li>
-		<li><a href="https://www.linkedin.com/in/aaron-walters-4429bb1/">Aaron Walters</a> (The Art of Memory Forensics)</li>
-		<li><a href="https://www.linkedin.com/in/agentcraig/">Craig Smith</a> (Car Hacking)</li>
-		<li><a href="https://x.com/nickcano93">Nick Cano</a> (Game Hacking)</li>
-		<li><a href="https://x.com/tiraniddo?lang=en">James Forshaw</a> (Attacking Network Protocols)</li>
-	</ul>
-
-	<h2>Get Involved:</h2>
-	<p>Chris invites listeners to provide feedback and share their thoughts. Subscribe, leave a comment, or message Chris directly to join the conversation and stay updated on future episodes.</p>
-
-	<h3>Listen to the Podcast:</h3>
-	<p><a href="https://podcasts.apple.com/">Apple Podcasts</a> | <a href="https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6?si=2cc684cfca9b4469">Spotify</a> | <a href="https://podcasts.google.com/">Google Podcasts</a></p>
-
-	<p><i>Disclaimer: All activities mentioned are to be performed within legal boundaries and in a controlled environment.</i></p>
-</section>
-
-							<section class="post">
-								<header class="major">
-									<span class="date">April 22, 2026</span>
-									<h1>We're Back — Season 2 Coming Soon</h1>
-								</header>
-								<p>After wrapping Season 1 with 17 episodes, we're relaunching <em>Hackers to Founders</em> with a new lineup of guests and a sharper focus: the people building the future of cybersecurity, and the stories behind how they got there.</p>
-								<p>Coming up: <strong>Jeremiah Grossman</strong> — founder of WhiteHat Security, ex-Chief of Security Strategy at SentinelOne, and now CEO of Root Evidence — in a long-form conversation about five chapters of cyber, from Yahoo to the AppSec era to evidence-based vulnerability management.</p>
-								<p>Want new episodes in your inbox? <a href="https://hackers-to-founders.kit.com/f3b7805902">Subscribe here</a>.</p>
-							</section>
-						
-							<section class="post">
-								<header class="major">
-									<span class="date">August 23, 2024</span>
-									<h1>About the Show</h1>
-									<p>When hackers become entrepreneurs,<br />
-									and the investors that back them.<br />
-									by REal0day</p>
-								</header>
-								<div class="image main"><img src="images/podcast.png" alt="" />That's my dog. Cat is hiding.</div>
-								<p>After a decade in cybersecurity as a security researcher, I kept meeting brilliant people with ideas for how to fix, build, and reimagine our industry — people who never took the leap. The reasons were almost always the same: they didn't know how to turn an idea into a company, they didn't know how to find the right investors, and the companies they worked at didn't listen.</p>
-								<p><em>Hackers to Founders</em> is a long-form interview podcast about the ones who did take the leap. Founders who grew up as hackers and built the security companies we all use today. Investors who back them. Community builders who hold the space together.</p>
-								<p>Past guests include Jeremiah Grossman (WhiteHat, Root Evidence), Adam Shostack (CVE co-creator), Jack Rhysider (Darknet Diaries), Vivek Ramachandran (SquareX, acquired by Zscaler), Jordan Wiens (Vector 35 / Binary Ninja), and more — with a new lineup incoming for Season 2.</p>
-								<p>Want new episodes in your inbox? <a href="https://hackers-to-founders.kit.com/f3b7805902">Subscribe here</a>.</p>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<iframe src="https://discord.com/widget?id=1289656445796614174&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-						</section>
-						<section>
-							<h3>Social</h3>
-							<ul class="icons alt">
-							 	  <li><a href="https://x.com/Hacker2Founder" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								  <li><a href="https://instagram.com/hackerstofounders" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								  <li><a href="https://www.facebook.com/profile.php?id=61565628075184" class="icon brands alt fa-facebook"><span class="label">Facebook</span></a></li>
-								  <li><a href="https://www.linkedin.com/showcase/105189100" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								  <li><a href="https://discord.gg/2TnH6hkuTG" class="icon brands alt fa-discord"><span class="label">Discord</span></a></li>
-								  <li><a href="https://www.youtube.com/@HackersToFounders" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
-								  <li><a href="https://hackerstofounders.com" class="icon alt fa-globe"><span class="label">Website</span></a></li>
-							</ul>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						
-						<ul><li>&copy; Copyright <script>document.write( new Date().getFullYear() );</script></li></ul>
-					</div>
-
+			<div class="h2f-about-block">
+				<h2 class="h2f-about-heading">About the show</h2>
+				<p>Hackers to Founders is a long-form interview podcast about the people building the future of cybersecurity. Each episode goes deep on one founder, hacker, or investor — what they built, what they broke, and what it actually took.</p>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<div class="h2f-about-block">
+				<h2 class="h2f-about-heading">About the host</h2>
+				<p>Chris Magistrado is a security researcher and Senior Product Security Engineer at Fortinet, with about a decade in offensive and defensive security. He's worked on PSIRT, CVE coordination, and product security for some of the largest networks in the world.</p>
+				<p class="h2f-about-location">Based in Austin, Texas. Find him on <a href="https://linkedin.com/in/cmagistrado" target="_blank" rel="noopener">LinkedIn</a> or <a href="https://x.com/REal0day" target="_blank" rel="noopener">X</a> as @REal0day.</p>
+			</div>
 
-	</body>
+			<div class="h2f-about-block h2f-about-work">
+				<h2 class="h2f-about-heading">Work with Chris</h2>
+				<p>Outside of Fortinet, Chris runs <strong>Red Security Global</strong>, a small product security and privacy compliance firm. Services include:</p>
+				<ul class="h2f-about-services">
+					<li>Product security audits and code review</li>
+					<li>SOC 2, HIPAA, CCPA &amp; GDPR readiness assessments</li>
+					<li>Privacy policy and DSAR program drafting</li>
+				</ul>
+				<p class="h2f-about-pricing">Engagements run 2–4 weeks and start at $1,500. Founder-friendly pricing for early-stage startups.</p>
+				<p>Reach out: <a href="mailto:chris@rsecglobal.com">chris@rsecglobal.com</a></p>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Wrapper for the legacy post content -->
+	<div id="wrapper">
+
+		<div id="main">
+
+			<!-- Section header for episodes -->
+			<div class="h2f-episodes-header" id="episodes">
+				<h2 class="h2f-section-title">All Episodes</h2>
+				<p class="h2f-section-sub">Every conversation, from episode zero.</p>
+			</div>
+
+			<!-- Transistor playlist -->
+			<iframe class="h2f-transistor-embed" width="100%" height="390" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/hackers-to-founders/playlist"></iframe>
+
+			<section class="post">
+				<header class="major">
+				  <span class="date">February 21st, 2025</span>
+				  <h1>Ep.17 – How AI is Changing OSINT, Dark Web Investigations, and Fraud Detection with Zara Perumal</h1>
+				  <p>What if AI could predict and prevent cyber fraud before it happens? In this episode of <em>Hackers to Founders</em>, Zara Perumal, CTO and co-founder of Overwatch Data, highlights her journey from early coding experiments to building an AI-driven cybersecurity platform. Hear how Overwatch uncovers threats on the dark web, automates OSINT processing, and helps businesses stay ahead of emerging fraud schemes.</p>
+				</header>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/tZKWDqbhKzs?si=YVUZHd5U1MmzoyCv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<iframe width="100%" height="180" frameborder="no" scrolling="no" seamless="" src="https://share.transistor.fm/e/fce1d90f"></iframe>
+
+				<h2>Key Highlights in This Episode:</h2>
+				<ul>
+				  <li>Zara's early passion for coding, developing iOS apps, and studying at MIT.</li>
+				  <li>From Google's Threat Analysis Group to co-founding Overwatch Data.</li>
+				  <li>Using AI and automation to sift through OSINT and dark web intel.</li>
+				  <li>Turning customer feedback into real-time fraud detection solutions.</li>
+				  <li>Insights on navigating the startup world, from market fit to funding rounds.</li>
+				</ul>
+
+				<h2>People Mentioned:</h2>
+				<ul>
+				  <li><strong>Zara Perumal</strong> – CTO and Co-founder, Overwatch Data</li>
+				  <li><strong>Arjun Bisen</strong> – CEO and Co-founder, Overwatch Data</li>
+				  <li><strong>Ron Rivest</strong> – MIT professor and cryptography pioneer</li>
+				  <li><strong>Michael (YC Advisor)</strong> – Early guide during Overwatch's development</li>
+				</ul>
+
+				<h2>Technologies &amp; Tools:</h2>
+				<ul>
+				  <li><strong>GPT (ChatGPT)</strong> – AI scripting and analysis tasks</li>
+				  <li><strong>JADX</strong> – Reverse-engineering Android applications</li>
+				  <li><strong>Corellium</strong> – Mobile security research platform</li>
+				  <li><strong>Telegram</strong> – Key source for cybercriminal communication</li>
+				</ul>
+
+				<h2>Cybersecurity &amp; Hacking:</h2>
+				<ul>
+				  <li><strong>OSINT</strong> – Open-source intelligence for threat detection</li>
+				  <li><strong>Dark Web Investigations</strong> – Tracking illicit marketplaces and forums</li>
+				  <li><strong>SIM Swapping &amp; Credential Stuffing</strong> – Key fraud tactics Overwatch counters</li>
+				</ul>
+			</section>
+
+			<!-- NOTE: I'm keeping all the existing episode <section class="post"> blocks unchanged.
+			     When you apply this file, DO NOT replace the episodes themselves — only replace
+			     everything ABOVE the first <section class="post"> block and everything BELOW
+			     the "October 2nd, 2024" Episode 0 section (the two stale 2024 pre-launch posts).
+
+			     Full instructions are in APPLY-INSTRUCTIONS.md — see that file. -->
+
+			<!-- [[EPISODES 16 through 0 stay exactly as they are in your current index.html]] -->
+
+		</div>
+
+		<!-- Footer -->
+		<footer class="h2f-footer">
+			<div class="h2f-footer-inner">
+
+				<div class="h2f-footer-about">
+					<div class="h2f-footer-wordmark">[Hackers→Founders]</div>
+					<p>A long-form interview show with the hackers, founders, and investors shaping cybersecurity. Hosted by Chris Magistrado from his home studio.</p>
+				</div>
+
+				<div class="h2f-footer-col">
+					<h4>Listen</h4>
+					<ul>
+						<li><a href="https://open.spotify.com/show/5BgjVtDJc7xoyiQlbhKmL6" target="_blank" rel="noopener">Spotify</a></li>
+						<li><a href="https://podcasts.apple.com/us/podcast/hackers-to-founders/id1771903476" target="_blank" rel="noopener">Apple Podcasts</a></li>
+						<li><a href="https://www.youtube.com/@HackersToFounders" target="_blank" rel="noopener">YouTube</a></li>
+						<li><a href="https://music.amazon.com/podcasts/e34efad3-bf38-431d-be45-348ef6838262/hackers-to-founders" target="_blank" rel="noopener">Amazon Music</a></li>
+					</ul>
+				</div>
+
+				<div class="h2f-footer-col">
+					<h4>Connect</h4>
+					<ul>
+						<li><a href="https://discord.gg/2TnH6hkuTG" target="_blank" rel="noopener">Discord</a></li>
+						<li><a href="https://x.com/Hacker2Founder" target="_blank" rel="noopener">X / Twitter</a></li>
+						<li><a href="https://www.linkedin.com/showcase/105189100" target="_blank" rel="noopener">LinkedIn</a></li>
+						<li><a href="https://instagram.com/hackerstofounders" target="_blank" rel="noopener">Instagram</a></li>
+						<li><a href="https://www.youtube.com/@HackersToFounders" target="_blank" rel="noopener">YouTube</a></li>
+					</ul>
+				</div>
+
+				<div class="h2f-footer-col">
+					<h4>Host</h4>
+					<ul>
+						<li><a href="https://linkedin.com/in/cmagistrado" target="_blank" rel="noopener">LinkedIn</a></li>
+						<li><a href="https://x.com/REal0day" target="_blank" rel="noopener">X / @REal0day</a></li>
+						<li><a href="https://medium.com/@real0day" target="_blank" rel="noopener">Medium articles</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="h2f-footer-bottom">
+				<span>&copy; <script>document.write(new Date().getFullYear());</script> Hackers to Founders</span>
+				<span>Made by Chris Magistrado in Austin, TX</span>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts (retained for any residual template behavior) -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
 </html>
